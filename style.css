@@ -1,0 +1,46 @@
+body{
+    font-family: cursive;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    background-image: url('jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    border: 1px solid gray;
+    /* display: flex; */
+    display: grid;
+    /* grid-area: span; */
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url('background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#btn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+#result{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
