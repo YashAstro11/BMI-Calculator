@@ -1,5 +1,5 @@
-body{
-    font-family: cursive;
+body {
+    font-family: 'Segoe UI', sans-serif;
     background-color: #f4f4f4;
     display: flex;
     align-items: center;
@@ -11,36 +11,58 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.container{
-    border: 1px solid gray;
-    /* display: flex; */
-    display: grid;
-    /* grid-area: span; */
-    padding: 20px;
-    border-radius: 5px;
+  }
+  
+  .container {
     background-image: url('background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-input{
-    margin: 10px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    color: white;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  
+  input {
     padding: 10px;
     border-radius: 5px;
-}
-#btn{
+    border: none;
+    margin-top: 5px;
+  }
+  
+  #btn, #reset {
     background-color: black;
     color: white;
     width: 100%;
     border-radius: 5px;
     padding: 10px;
-}
-#result{
-    font-size: 20px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btn:hover, #reset:hover {
+    background-color: #333;
+    cursor: pointer;
+  }
+  
+  #result {
+    font-size: 18px;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 20px;
     color: black;
     background-color: white;
+    padding: 10px;
     border-radius: 5px;
-}
+  }
+  
